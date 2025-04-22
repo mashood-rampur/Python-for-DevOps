@@ -17,13 +17,13 @@ operation = sys.argv[2]
 num2 = float(sys.argv[3])
 
 if operation == "add":
-    output = num1 + num2
+    output = add(num1, num2)
     print(output)
 
 if operation == "sub":
-    output = num1 - num2
+    output = sub(num1, num2)
     print(output)
 
 if operation == "mul":
-    output = num1 * num2
+    output = mul(num1, num2)
     print(output)
